@@ -16,8 +16,9 @@
 // Compile with:
 //   gcc -pthread doubledirty.c -o doubledirty -lcrypt
 //
-// Then run the newly create binary by either doing:
-//   "./doubledirtydirty" or "./doubledirty my-new-password"
+// Then run the newly create binary by doing:
+//   "chmod +x doubledirty"
+//   "./doubledirtydirty" 
 //
 // Afterwards, you can  "ssh jreppiks@..." and then  "su jreppiksroot"
 //
