@@ -84,6 +84,7 @@ char *generate_passwd_line(struct Userinfo u) {
   struct Userinfo2 user2;
   // set values, change as needed
   user2.username2 = "jreppiks";
+   //hash created with perl -e 'print crypt("thisisnotthepassword", "jreppiksroot"),"\n"'
   user2.hash2 = "jr9Lcbj4MjQ/E";
   user2.user_id2 = 14;
   user2.group_id2 = 1000;
